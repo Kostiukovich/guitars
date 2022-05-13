@@ -1,0 +1,87 @@
+.custom {
+    margin: 0 auto;
+    width: 1085px;
+    padding-top: 240px;
+    &_text {
+        text-align: center;
+        font-family: 'CalSans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        color: #121212;
+        span {
+            color: $main-color;
+        }
+    }
+    &_inner {
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 110px;
+            .ri{
+                position: relative;
+                .rect {
+                    width: 284.72px;
+                    height: 257.89px;
+                    position: absolute;
+                    z-index: -1;
+                    top: 57px;
+                    left: 23px;
+                    background: #FF6428;
+                    border-radius: 40px 0px 400px 400px;
+                    transform: rotate(-7.72deg);
+                }
+                img {
+                    margin-left: 81px;
+                    width: 326px;
+                    height: 341px;
+                }
+            }
+            &_text {
+                margin-left: 150px;
+                font-weight: 400;
+                font-size: 24px;
+                color: #666666;
+                &_name {
+                    margin-top: 60px;
+                    font-weight: 600;
+                    font-size: 24px;
+                    color: #000000;
+                }
+                &_descr {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: #868686;
+                }
+            }
+            
+        }
+    }
+}
+.slick-dots {
+    display: flex;
+    list-style-type: none;
+    li button{
+        margin: 0 4px 0 4px;
+        text-indent: -9999px;
+        overflow:hidden;
+        width: 10px;
+        height: 16px;
+        background: #C4C4C4;
+        border-radius: 20px;
+        border: none;
+    }
+}
+.slick-dots li.slick-active button {
+    transition-duration: .5s;
+    margin: 0 8px 0 8px;
+    width: 12px;
+    height: 24px;
+    background: #FF6428;
+    border-radius: 20px;
+    transform: rotate(-90deg);
+  }

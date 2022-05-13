@@ -1,0 +1,19 @@
+@import 'base/variables';
+@import 'base/fonts';
+@import 'base/slick';
+@import 'base/aos';
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import 'blocks/promo';
+@import 'blocks/shop';
+@import 'blocks/categories';
+@import 'blocks/brands';
+@import 'blocks/why';
+@import 'blocks/custom';
+@import 'blocks/download';
+@import 'blocks/footer';

@@ -1,0 +1,49 @@
+.download {
+
+    margin: 230px auto;
+    width: 1172px;
+    min-height: 533px;
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        &_text {
+            
+            width: 484px;
+            
+            font-family: 'CalSans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            color: #121212;
+            span {
+                color: $main-color;
+            }
+            .markets {
+                margin-top: 65px;
+                display: grid;
+                grid-template-columns: repeat(2, 200px);
+                gap: 0 20px;
+            }
+        }
+        &_bg {
+            min-width: 568px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            &_elipse {
+                position: absolute;
+                z-index: -1;
+                border-radius: 284px/177px;
+                width: 568px;
+                height: 354px;
+                background: $main-color;
+            }
+            img {
+                display: block;
+                filter: drop-shadow(0px 4px 80px rgba(0, 0, 0, 0.08));
+            }
+        }
+    }
+    
+}

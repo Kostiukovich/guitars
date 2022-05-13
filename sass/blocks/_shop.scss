@@ -1,0 +1,55 @@
+.shop {
+    margin: 0 auto;
+    width: 1200px;
+    height: 935px;
+    
+    &_text {
+        text-align: center;
+        font-family: 'CalSans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        color: #121212;
+        span {
+            color: $main-color;
+        }
+    }
+    &_new {
+        margin-top: 100px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #121212;
+        span {
+            float: right;
+            font-weight: 500;
+            font-size: 20px;   
+            a {
+                text-decoration: none;
+                color: #868686;
+            }
+        }
+    }
+    &__content {
+        margin-top: 38px;
+        display: grid;
+        grid-template-columns: repeat(3, 364px);
+        gap: 0 50px;
+        a {
+            text-decoration: none;
+        }
+        .shop-item{
+            &__subtitle {
+                margin-top: 40px;
+                font-weight: 500;
+                font-size: 16px;
+                color: #121212;
+            }
+            &__price {
+                margin-top: 8px;
+                color: #868686;
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+    }
+}

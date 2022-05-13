@@ -1,0 +1,54 @@
+.why {
+    padding-top: 93px;
+    margin-top: 180px;
+    height: 508px;
+    background: #121212;
+    &_text {
+        text-align: center;
+        font-family: 'CalSans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        color: #fff;
+        span {
+            color: $main-color;
+        }
+    }
+    &_wrapper {
+        margin-top: 80px;
+        margin-left: 155px;
+        margin-right: 155px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_item {
+            text-align: center;
+            height: 140px;
+            width: 230px;
+            circle {
+                margin: 0 auto;
+                padding-top: 20px;
+                text-align: center;
+                display: block;
+                border-radius: 25%;
+                width: 72px;
+                height: 72px;
+                background-color: #262626;
+            }
+        }
+        &_descr {
+            margin-top: 40px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+        &_descr2 {
+            margin-top: 15px;
+            font-weight: 400;
+            font-size: 14px;
+            color: #666666;
+        }
+
+    }
+}
